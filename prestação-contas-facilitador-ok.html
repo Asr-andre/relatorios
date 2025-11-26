@@ -29,7 +29,7 @@
         background: #fff;
         display: block;
         margin: 0 auto 20px;
-        padding: 32px 40px 120px;
+        padding: 32px 40px;
         box-shadow: 0 12px 40px rgba(18, 57, 91, 0.18);
         position: relative;
     }
@@ -162,12 +162,9 @@
     }
 
     .footer {
-        position: absolute;
-        bottom: 32px;
-        left: 40px;
-        right: 40px;
         font-size: 11px;
         color: var(--text-light);
+        margin-top: 32px;
     }
 
     .alert-box {
@@ -207,18 +204,30 @@
             box-shadow: none;
             border-radius: 0;
             min-height: auto;
-            padding: 32px 32px 100px;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 32px;
+            padding: 32px;
         }
 
         .table-wrapper {
             overflow: visible;
             box-shadow: none;
             border-radius: 0;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        table {
+            page-break-inside: auto;
+        }
+
+        thead th {
+            padding-top: 20px;
+        }
+
+        tbody tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
         }
     }
 </style>
@@ -301,6 +310,282 @@
                         <td class="text-right">17/01/2026</td>
                         <td class="text-right">1/1</td>
                         <td class="text-center">Quitação</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
+                        <td class="text-center">Alvará</td>
+                        <td class="text-right">R$: 100,00</td>
+                        <td class="text-right">R$: 30,00</td>
+                        <td class="text-right">R$: 70,00</td>
+                    </tr>
+                    <tr>
+                        <td>JOÃO ALVES FACUNDO</td>
+                        <td class="text-center">321.654.987-25</td>
+                        <td class="text-center">10/04/2025</td>
+                        <td class="text-right">17/01/2026</td>
+                        <td class="text-right">2/6</td>
+                        <td class="text-center">Parcela</td>
                         <td class="text-center">Alvará</td>
                         <td class="text-right">R$: 100,00</td>
                         <td class="text-right">R$: 30,00</td>
